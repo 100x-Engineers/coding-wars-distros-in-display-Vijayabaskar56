@@ -1,16 +1,24 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import HomePage from "./routes/HomePage";
+import TemplatePage from "./routes/TemplatePage";
+
+const route = createBrowserRouter(
+  createRoutesFromElements(
+    <>
+      <Route path="/" element={<HomePage />} />
+      <Route path="template" element={<TemplatePage />} />
+    </>
+  )
+);
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <>
-      <h1 className="text-3xl font-bold underline">zeros and once</h1>
-    </>
-  );
+  return <RouterProvider router={route} />;
 }
 
 export default App;

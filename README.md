@@ -1,9 +1,10 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/R4bBH-h7)
+
 # AI portfolio builder - (Coding wars)
 
 ## 1. Introduction
 
-The AI Portfolio builder aims to provide a simplified user interface for gathering personal and professional information from users to generate a prompt for GPT, which will then be used to create a personalised portfolio website. 
+The AI Portfolio builder aims to provide a simplified user interface for gathering personal and professional information from users to generate a prompt for GPT, which will then be used to create a personalised portfolio website.
 
 Following are the features, user interface, and technical aspects of the project.
 
@@ -19,14 +20,14 @@ Following are the features, user interface, and technical aspects of the project
 - Add a field for "Professional Summary".
 - Update to allow experience entries such as Job title, company name.
 - **Education** section to allow users to input their education details.
-    - Relevant Courses
-    - Graduation Year
-    - Institution Name
+  - Relevant Courses
+  - Graduation Year
+  - Institution Name
 - **Skills section:** to allow users add list of skills.
 - **Contact** section with fields for:
-    - GitHub URL
-    - LinkedIn URL
-    - Twitter URL
+  - GitHub URL
+  - LinkedIn URL
+  - Twitter URL
 
 ### 2.3 Template Customization
 
@@ -64,12 +65,12 @@ Following are the features, user interface, and technical aspects of the project
 
 ## 5. Deployment
 
-- Frontend: If you are using vanilla JS to build this, you can deploy it on the github pages. 
-If you are using react you can use any of these, vercel, netlify or render. 
-Once it is deployed make sure to test the link and include it in the github repo.
+- Frontend: If you are using vanilla JS to build this, you can deploy it on the github pages.
+  If you are using react you can use any of these, vercel, netlify or render.
+  Once it is deployed make sure to test the link and include it in the github repo.
 - Backend: This app will require a node.js API to connect to openAI with your Open AI secret key.
-    - Deploy the Node.js app to [render.com](http://render.com) as a web service similar to how you have deployed the chat app in the module 0.
-    - Refer to this Node.js app built during the 100x lab session https://github.com/Siddhant-Goswami/100xlabs-openai-nodejs-server/tree/main.
+  - Deploy the Node.js app to [render.com](http://render.com) as a web service similar to how you have deployed the chat app in the module 0.
+  - Refer to this Node.js app built during the 100x lab session https://github.com/Siddhant-Goswami/100xlabs-openai-nodejs-server/tree/main.
 
 ## 6. Advance Features
 

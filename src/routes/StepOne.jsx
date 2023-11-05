@@ -3,8 +3,6 @@ import { object, string, number } from "yup";
 import InputField from "../components/InputField";
 import { Link, useNavigate } from "react-router-dom";
 import Button from "../components/Button";
-import DropDOwn from "../components/DropDOwn";
-import Singup from "../assets/signup-x.svg";
 import Image from "../components/Image";
 
 const StepOne = () => {
@@ -23,7 +21,7 @@ const StepOne = () => {
   });
   return (
     <>
-      <section className="flex-col self-stretch justify-start h-5/6">
+      <section className="flex-col self-stretch w-full justify-start h-5/6">
         <h1 className="pb-5 text-2xl font-bold text-stone-50">
           Create your account
         </h1>
@@ -94,36 +92,7 @@ const StepOne = () => {
                   />
                   <section className="flex-col items-start gap-2">
                     <h2 className="text-sm font-bold">Date of birth</h2>
-                    <p className="text-sm text-Secondary">
-                      This will not be shown publicly. Confirm your own age,
-                      even if this account is for a business, a pet, or
-                      something else.
-                    </p>
-                  </section>
-                  <section className="flex justify-evenly">
-                    <div className="flex items-start self-stretch w-full gap-3">
-                      <DropDOwn
-                        name="month"
-                        value={values.month}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        disabled={isSubmitting}
-                      />
-                      <DropDOwn
-                        name="day"
-                        value={values.day}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        disabled={isSubmitting}
-                      />
-                      <DropDOwn
-                        name="year"
-                        value={values.year}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        disabled={isSubmitting}
-                      />
-                    </div>
+                    <p className="text-sm text-Secondary"></p>
                   </section>
                   <div className="m-auto h-2/6 pt-28">
                     <Button

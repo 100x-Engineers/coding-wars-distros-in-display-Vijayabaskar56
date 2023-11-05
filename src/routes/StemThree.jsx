@@ -1,4 +1,9 @@
-import React from "react";
+import { Field, Formik } from "formik";
+import { object, string, number } from "yup";
+import InputField from "../components/InputField";
+import { Link, useNavigate } from "react-router-dom";
+import Button from "../components/Button";
+import Image from "../components/Image";
 
 const StemThree = () => {
   const navigate = useNavigate();
@@ -29,9 +34,6 @@ const StemThree = () => {
               initialValues={{
                 name: "",
                 email: "",
-                month: "",
-                day: "",
-                year: "",
               }}
               validationSchema={validation}
               onSubmit={(values, { setSubmitting, resetForm }) => {
@@ -85,10 +87,7 @@ const StemThree = () => {
                     errors={errors.email}
                     touched={touched.email}
                   />
-                  <section className="flex-col items-start gap-2">
-                    <h2 className="text-sm font-bold">Date of birth</h2>
-                    <p className="text-sm text-Secondary"></p>
-                  </section>
+
                   <div className="m-auto h-2/6 pt-28">
                     <Button
                       varient="base"

@@ -30,5 +30,17 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/R4bBH-h7)",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100x-Engineers/coding-wars-distros-in-display-Vijayabaskar56.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/100x-Engineers/coding-wars-distros-in-display-Vijayabaskar56/issues"
+  },
+  "homepage": "https://github.com/100x-Engineers/coding-wars-distros-in-display-Vijayabaskar56#readme"
 }

@@ -9,6 +9,10 @@ import HomePage from "./routes/HomePage";
 import TemplatePage from "./routes/TemplatePage";
 import ErrorPage from "./routes/ErrorPage";
 import StepOne from "./routes/StepOne";
+import StepTwo from "./routes/StepTwo";
+import StepThree from "./routes/StepTwo";
+import StepFour from "./routes/StepTwo";
+import StepFive from "./routes/StepTwo";
 
 const route = createBrowserRouter(
   createRoutesFromElements(

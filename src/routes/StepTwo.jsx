@@ -20,7 +20,7 @@ const StepTwo = () => {
   });
   return (
     <>
-      <div className="w-full h-screen bg-black">
+      <div className="w-screen h-screen bg-black">
         <section className="flex-col px-5 py-5  self-stretch justify-start w-full h-5/6">
           <h1 className="pb-5 text-2xl font-bold text-stone-50">
             Create your account

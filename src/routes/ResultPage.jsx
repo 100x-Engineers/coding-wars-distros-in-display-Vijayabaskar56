@@ -1,14 +1,17 @@
+import React from "react";
+
 const ResultPage = () => {
   return (
-    <div>
-      <h2>Heres your result:</h2>
-
-      {/* HTML Code Block */}
+    <>
       <div>
-        <h3>HTML Code:</h3>
-        <pre>
-          <code className="language-html">
-            {`
+        <h2>Heres your result:</h2>
+
+        {/* HTML Code Block */}
+        <div>
+          <h3>HTML Code:</h3>
+          <pre>
+            <code className="language-html">
+              {`
           <html>
             <head>
               <title>My Portfolio</title>
@@ -35,16 +38,16 @@ const ResultPage = () => {
             </body>
           </html>
         `}
-          </code>
-        </pre>
-      </div>
+            </code>
+          </pre>
+        </div>
 
-      {/* CSS Code Block */}
-      <div>
-        <h3>CSS Code:</h3>
-        <pre>
-          <code className="language-css">
-            {`
+        {/* CSS Code Block */}
+        <div>
+          <h3>CSS Code:</h3>
+          <pre>
+            <code className="language-css">
+              {`
           body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -62,29 +65,29 @@ const ResultPage = () => {
             list-style: none;
           }
         `}
-          </code>
-        </pre>
-      </div>
+            </code>
+          </pre>
+        </div>
 
-      {/* JavaScript Code Block */}
-      <div>
-        <h3>JavaScript Code:</h3>
-        <pre>
-          <code className="language-js">
-            {`
+        {/* JavaScript Code Block */}
+        <div>
+          <h3>JavaScript Code:</h3>
+          <pre>
+            <code className="language-js">
+              {`
           // Sample JavaScript code
           console.log('Hello, World!');
         `}
-          </code>
-        </pre>
-      </div>
+            </code>
+          </pre>
+        </div>
 
-      {/* Tailwind CSS Code Block */}
-      <div>
-        <h3>Tailwind CSS Code:</h3>
-        <pre>
-          <code className="language-css">
-            {`
+        {/* Tailwind CSS Code Block */}
+        <div>
+          <h3>Tailwind CSS Code:</h3>
+          <pre>
+            <code className="language-css">
+              {`
           <div className="bg-gray-100">
             <h1 className="text-2xl font-bold text-gray-800">Welcome to My Portfolio</h1>
             <p className="text-gray-600">I am a passionate web developer...</p>
@@ -96,10 +99,11 @@ const ResultPage = () => {
             <p className="text-gray-600">Contact Me: email@example.com</p>
           </div>
         `}
-          </code>
-        </pre>
+            </code>
+          </pre>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

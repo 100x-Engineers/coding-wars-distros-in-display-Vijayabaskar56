@@ -1,5 +1,11 @@
+import Navigation from "../components/Navigation";
+
 const TemplatePage = () => {
-  return <div>TemplatePage</div>;
+  return (
+    <>
+      <Navigation />
+    </>
+  );
 };
 
 export default TemplatePage;
